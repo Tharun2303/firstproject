@@ -8,7 +8,7 @@ text-decoration: none;
   --greycolour: #adadad;
 }
 body{
-    background-image:url(/images/VALORANT_JETT_LIGHT.jpg);
+    background-image:url(./images/VALORANT_JETT_LIGHT.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
