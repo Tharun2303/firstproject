@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: whitesmoke;
+    }
+    :root{
+      --greycolour: #adadad;
+    }
+    body{
+      font-family: 'FF MARK W05', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: black;
+    }
+
+    img{
+      width: 100%;
+    }
+    section{
+      margin-bottom: 48px;
+      
+    }
+    input{
+      padding: 14px;
+      border-radius: 4px;
+      border: var(--greycolour) solid ;
+      outline: none;
+    }
+     .flex{
+      display: flex;
+     }
+     .flexcol{
+      display:flex ;
+      flex-direction: column;
+    
+     }
+     main{
+        width: 86%;
+        margin: 0 auto;
+
+     }
+    .mapcontainer{
+      max-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .marginbottom{
+        margin-bottom: 48px;
+    max-width: 40%;
+     }
+    .mainmargin{
+    margin: 64px auto;
+    font-size: 48px;
+    }
+    .verticalpadding{
+        padding: 16px 0;
+    }
+    .footercontainer p{
+      align-items: center;
+      width: 100%;
+      text-align: center;
+  }

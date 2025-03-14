@@ -1,0 +1,144 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+:root{
+  --greycolour: #adadad;
+}
+body{
+    background-image:url(/images/VALORANT_JETT_LIGHT.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'FF MARK W05', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+  width: 100%;
+}
+input{
+  padding: 14px;
+  border-radius: 4px;
+  border: var(--greycolour) solid ;
+  outline: none;
+}
+ .flex{
+  display: flex;
+ }
+ .flexcol{
+  display:flex ;
+  flex-direction: column;
+
+ }
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 436px;
+  background-color: white;
+  padding: 24px;
+  text-align: center;
+  font-size: 12px;
+  
+}
+.logocontainer{
+  width: 140px;
+}
+.formcontainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  
+  gap: 24px;
+  text-align:center;
+
+}
+.iconsection{
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+.iconsection .iconcontainer i{
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  color: rgb(15, 14, 14);
+  background-color: white;
+}
+.iconsection .iconcontainer i:hover{
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(15, 14, 14);
+}
+
+.iconcontainer{
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.fa-brands{
+ padding: 6px 24px;
+ border: var(--greycolour) solid;
+ border-radius: 4px;
+ font-size: 20px;
+}
+
+.submiticon{
+  align-items: center;
+  justify-content: center;
+}
+.submitbutton{
+  padding: 24px;
+  border-radius: 18px;
+  border: var(--greycolour) solid;
+  background: none;
+  color: var(--greycolour);
+  font-size: 20px;
+}
+.inputcontainer{
+  gap: 16px;
+  text-align: left;
+}
+.checkboxcontainer{
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+.supportcontainer p{
+font-weight: 900;
+font-size: 11px;
+}
+@media (max-width: 900px) {
+  body{
+    padding: 16px;
+  }
+  main{
+     background: transparent;
+    width: 100%;
+    padding: 24px;
+    margin: auto;
+  }
+  .formcontainer{
+padding: 24px;
+border-radius: 16px;
+  }
+  .iconsection{
+    flex-direction: column;
+
+  }
+  .iconcontainer a{
+    width: 100%;
+  }
+  .fa-brands{
+    width: 100%;
+  }
+}

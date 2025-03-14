@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --greycolour-dark: #403f3f;
+    --greycolour: #686565;
+--bg-color:rgb(23, 20, 20);
+    --color-2: #ff4248;
+  }
+body{
+    background-color: black;
+}
+img{
+    width: 100%;
+}
+::placeholder{
+    color: var(--bg-color);
+    font-weight: 700;
+    font-size: 10px;
+}
+input{
+    padding:14px 8px;
+    background-color: var(--greycolour);
+    outline: none;
+    border: none;
+    width: 80%;
+    color: white;
+    border-radius: 4px;
+    font-weight: 900;
+    
+}
+.flex{
+    display: flex;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    gap: 64px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 48px 0;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    border-bottom: var(--greycolour) solid;
+    background-color: black;
+}
+.logocontainer{
+    width: 120px;
+}
+.nostylelogo:hover{
+    border-bottom: none;
+}
+
+.fa-solid{
+    color: var(--greycolour) ;
+}
+nav ul, li{
+    display: flex;
+    align-items: center;
+}
+li{
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover ,.socialcontainerlink:hover{
+    border-bottom: var(--color-2) solid 2px;
+}
+
+nav a i{
+    color: var(--greycolour);
+    margin-left: 8px;
+    font-size: 12px;
+}
+.navitemscontainer{
+    gap: 20px;
+}
+
+.navlinkscontainer ul{
+    gap: 18px;
+}
+.oursocialcontainer{
+    position: relative;
+
+}
+
+.socialcontainerlink{
+    align-items: center;
+}
+
+.dropdowncontanier li a{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dropdowncontanier{
+    transition: all 180ms;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 38px;
+    border-radius: 4px;
+    overflow: hidden;
+    transform: translate(-50%);
+    background-color: #403f3f;
+    display: none;
+}
+
+.oursocialcontainer:hover .dropdowncontanier{
+    display: block;
+}
+
+.Usernamecontainer{
+    background-color: var(--greycolour);
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+
+.allbutton-gry-lit{
+    padding: 8px 48px;
+    font-size: 14px;
+    background-color:rgb(196, 196, 196);
+    color: black;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+}
+.titlefont{
+    font-size: 48px;
+}
+
+
+.colcontainer{
+    gap: 48px;
+}
+.colcontainer-2{
+    margin-top: 48px;
+    gap: 48px;
+}
+
+.box-1{
+    padding: 32px 0;
+    border-bottom: 1px solid var(--greycolour);
+}
+
+.colcontainer-3{
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.asidecontainer{
+    width: 50%;
+}
+
+.colcontainer-4{
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 4px;
+}
+.fa-solid{
+    color: #ff4248;
+}
+.footercontainer p{
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
